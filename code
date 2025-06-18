@@ -28,6 +28,9 @@ if ($conn->connect_error) {
     
 // 📁 footer.php
 
+    <footer class="footer">
+        <p>&copy; 2025 Vasiliy. Все права защищены.</p>
+    </footer>
 </body>
 </html>
 
@@ -130,11 +133,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 body {
     background-color: #e0e0e0;
-    font-family: Arial, sans-serif; 
-    max-width: 500px; 
-    margin: 30px auto; 
-    padding: 20px; 
-    background: #f5f5f5; 
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f5f5f5;
     border-radius: 8px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.1); 
 }
@@ -192,6 +195,15 @@ button:hover {
 h2 { 
     text-align: center; 
 }
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
 
 // 📄 SQL структура /* CREATE DATABASE exam_site; USE exam_site;
 
